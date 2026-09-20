@@ -36,7 +36,7 @@ static void ChangeStatus(IConVar *cvar, const char *value, float flOldValue);
 static void ChangeFFAStatus(IConVar *cvar, const char *value, float flOldValue);
 static void ChangeSpawnStatus(IConVar *cvar, const char *value, float flOldValue);
 
-ConVar cssdm_ragdoll_time("cssdm_ragdoll_time", "2", 0, "Sets ragdoll stay time", true, 0.0, true, 20.0);
+ConVar cssdm_ragdoll_time("cssdm_ragdoll_time", "2", 0, "Sets ragdoll stay time", true, 0.0, true, 1800.0);
 ConVar cssdm_respawn_wait("cssdm_respawn_wait", "0.75", 0, "Sets respawn wait time");
 ConVar cssdm_version("cssdm_version", CSSDM_FULL_VERSION, FCVAR_NOTIFY, "CS:S DM Version");
 ConVar cssdm_enabled("cssdm_enabled", 
