@@ -208,7 +208,7 @@ IMPLEMENT_EVENT(player_death)
 
 	/* Remove ragdoll */
 	unsigned int ragdollTime = DM_GetBodyStayTime();
-	if (ragdollTime <= 20 && !g_InRoundRestart)
+	if (ragdollTime <= 1800 && !g_InRoundRestart)
 	{
 		int serial;
 		CBaseEntity *ragdoll = DM_GetAndClearRagdoll(player->pEntity, serial);
